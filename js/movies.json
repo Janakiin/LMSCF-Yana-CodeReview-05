@@ -1,0 +1,7 @@
+var movies = `[ 
+			{
+			"title": "Imitation Game",
+			"description": "sjdfkh",
+			"img": "skdjfkdjfh"
+			}
+	]`
