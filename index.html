@@ -6,14 +6,66 @@
 	<meta name="viewport" content ="width=device-width, initial-scale=1.0">
 	<title>MovieFactory</title>
 	<!--CSS connected-->
-	<link href="css/bootstrap.css"  rel="stylesheet" type="text/css"  media="all">
+	<link rel="stylesheet" type="text/css"  media="all" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<!--JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!--icon library-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
-
+<body class="bg-black text-light">
+	<header>	
+		<div class="container-fluid">
+		
+			<h1 class="bg-black text-center mb-0">Movie Factory</h1>
+		</div>
+		<div class="nav container-fluid">	
+			<nav class="pl-4">
+				
+					<a class="navbar-brand text-light p-2 pl-3" href="#">Home</a>
+				
+			</nav>
+		</div>	
+	</header>
+	<main class="m-0 p-0">
+		<div class="container-fluid bg-grey">
+			<div class="bg-grey Moviehead">
+				<p class="text-center h3 pt-4">Movies</p>
+				<span class="triangle position-relative p-4">&#9660;<button>Sort</button></span>
+			</div>				
+			<!--movie grid-->
+			<div class="row bg-grey p-4 mx-0 " id="row">
+				<div class="col-lg-5 col-md-5 col-xs-12 bg-black d-flex p-2 mb-4">
+					<img class="border border-light rounded" width=150px src="img/ABeautifulMind.jpg" alt="">
+					<div class="px-2 filmInfo">
+						<p class="h4">Movie Name</p>
+						<p>A short description</p>
+						<button id="likey" class="float-right"><span class="green">Like <span><i class="fa fa-thumbs-up"></i><input id="cirkly" class="ball" value="10"></button></span>
+						
+					</div>
+				</div>
+				<div class="d-flex flex-lg-row col-lg-5 offset-lg-2 flex-md-row col-md-5 offset-md-2 flex-xs-column col-xs-12 bg-black p-2 mb-4">
+					<img class="border border-light rounded" width=150px src="img/ABeautifulMind.jpg" alt="">
+					<div class="px-2 filmInfo">
+						<p class="h4">Movie Name</p>
+						<p>A short description</p>
+						<span class="green float-right"><p class="">Like <span><i class="fa fa-thumbs-up"></i><span class="ball">10</span></p></span>
+						
+					</div>
+				</div>
+			</div>
+		</div>	
+	</main>
+	<footer>
+		<div class="container-fluid pb-4">
+			<h3 class="bg-black text-center mb-0 mt-5">Movie Factory</h1>
+		</div>
+	</footer>
+		
+		
+		
+	</div>
 
 	<!--Javascript-->
 	<script src="js/movies.json" type="text/javascript"></script>

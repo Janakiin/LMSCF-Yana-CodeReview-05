@@ -1,7 +1,27 @@
 var movies = `[ 
 			{
 			"title": "Imitation Game",
-			"description": "sjdfkh",
-			"img": "skdjfkdjfh"
+			"description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians. ",
+			"img": "img/ImitationGame.jpg"
+			},{
+			"title": "A Beautiful Mind",
+			"description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+			"img": "img/ABeautifulMind.jpg"	
+			},{
+			"title": "Ex-Machina",
+			"description": "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I. ",
+			"img": "img/ExMachina.jpg"	
+			},{
+			"title": "Social Network",
+			"description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business. ",
+			"img": "img/SocialNetwork.jpg"	
+			},{
+			"title": "Terms And Conditions May Apply",
+			"description": "A documentary that exposes what corporations and governments learn about people through Internet and cell phone usage, and what can be done about it ... if anything. ",
+			"img": "img/Terms.jpg"
+			},{
+			"title": "The Man Who Knew Infinity",
+			"description": "The story of the life and academic career of the pioneer Indian mathematician, Srinivasa Ramanujan, and his friendship with his mentor, Professor G.H. Hardy. ",
+			"img": "img/TheManWhoKnewInfinity.jpg"
 			}
 	]`

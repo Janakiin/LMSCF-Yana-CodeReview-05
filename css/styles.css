@@ -1,0 +1,67 @@
+.bg-black {
+	background-color: black;
+}
+
+.nav {
+	background-color: #454545 !important;
+}
+
+.triangle {
+	color:  white;
+	top: -55px;
+	float: right;
+}
+
+.triangle button{
+	border: none;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+
+.bg-grey{
+	/* clear: left; */
+	background-color: #1d2329;
+}
+
+.Moviehead::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.green {
+	color: #32a23d;
+	font-size: 1.4em;
+}
+
+.boxy{
+	flex: 50%;
+}
+
+.filmInfo{
+	width: 90%;
+}
+
+.filmInfo button{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.ball{
+	border: 1px solid #32a23d;
+	padding-left: 5px;
+	font-size: 1.5em;
+	color: white;
+	line-height: 40px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #32a23d;
+	margin-left: 5px;
+
+}
+
+.ball p{
+	position: relative
+}
