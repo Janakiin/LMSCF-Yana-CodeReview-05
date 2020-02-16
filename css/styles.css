@@ -7,7 +7,6 @@
 }
 
 .triangle {
-	color:  white;
 	top: -55px;
 	float: right;
 }
@@ -15,11 +14,9 @@
 .triangle button{
 	border: none;
 	background-color: rgba(0,0,0,0);
-	color: white;
 }
 
 .bg-grey{
-	/* clear: left; */
 	background-color: #1d2329;
 }
 
@@ -38,8 +35,12 @@
 	flex: 50%;
 }
 
+.poster{
+	width: 50%;
+}
+
 .filmInfo{
-	width: 90%;
+	width: 100%;
 }
 
 .filmInfo button{
@@ -49,7 +50,7 @@
 
 .ball{
 	border: 1px solid #32a23d;
-	padding-left: 5px;
+	padding-left: 10px;
 	font-size: 1.5em;
 	color: white;
 	line-height: 40px;
@@ -65,3 +66,10 @@
 .ball p{
 	position: relative
 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.poster{
+	width: 30%;
+}
+
