@@ -49,9 +49,18 @@ $('#sort').click(function(){
 	}
 
 //2)sorting the objects via likes number
-		
+// ---------------------------------------------------------------------------------		
 	ObjectsArray.sort((a,b,c,d,e,f) => (a.likes > b.likes) ? 1 : -1).reverse();
-	console.log(ObjectsArray);		
+	console.log(ObjectsArray);
+// 									/\	
+// 									||
+// 	This piece of code is my question. I`ve pasted it from 
+//  https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
+//  altering the part I understand and everything works. Now I`m curious why.
+//  More precisely I do not understand, why he is keeping comparing other arguments
+//  too without stopping just on the first two.
+//  Could you help me, please?
+// ------------------------------------------------------------------------------------		
 
 //3) cleaning the .row-div
 	$("#row > div").remove();
